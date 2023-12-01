@@ -381,13 +381,13 @@ public class PixelPropsUtils {
 
     private static void spoofBuildGms() {
         // Alter build parameters to avoid hardware attestation enforcement
-        setPropValue("BRAND", "NVIDIA");
-        setPropValue("MANUFACTURER", "NVIDIA");
-        setPropValue("DEVICE", "foster");
-        setPropValue("FINGERPRINT", "NVIDIA/foster_e/foster:7.0/NRD90M/2427173_1038.2788:user/release-keys");
-        setPropValue("MODEL", "SHIELD Android TV");
-        setPropValue("PRODUCT", "foster_e");
-        setVersionFieldString("SECURITY_PATCH", "2018-01-05");
+        setPropValue("BRAND", "asus");
+        setPropValue("MANUFACTURER", "asus");
+        setPropValue("DEVICE", "ASUS_Z012D");
+        setPropValue("FINGERPRINT", "asus/WW_Phone/ASUS_Z012D:7.0/NRD90M/14.2015.1701.8-20170222:user/release-keys");
+        setPropValue("MODEL", "ASUS_Z012D");
+        setPropValue("PRODUCT", "WW_Phone");
+        setVersionFieldString("SECURITY_PATCH", "2017-01-01");
     }
 
     private static boolean isCallerSafetyNet() {
